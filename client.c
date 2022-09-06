@@ -6,7 +6,12 @@
 /*   By: berdogan <berdogan@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 21:52:18 by berdogan          #+#    #+#             */
-/*   Updated: 2022/09/04 21:52:19 by berdogan         ###   ########.fr       */
+/*   Updated: 2022/09/05 03:39:38 by berdogan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "minitalk.h"
+#include "printf.h"
+#include "libft.h"
+
 
