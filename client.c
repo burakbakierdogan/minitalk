@@ -6,7 +6,7 @@
 /*   By: berdogan <berdogan@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 23:35:18 by berdogan          #+#    #+#             */
-/*   Updated: 2022/09/16 16:26:27 by berdogan         ###   ########.fr       */
+/*   Updated: 2022/09/16 17:11:11 by berdogan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,6 @@ static	int	ft_isspace(int c)
 	if (c == ' ' || c == '\n' || c == '\t'
 		|| c == '\v' || c == '\f'
 		|| c == '\r')
-		return (1);
-	return (0);
-}
-static	int	ft_isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }
@@ -51,7 +45,7 @@ static	int	ft_atoi(const char *nptr)
 			sign = -1;
 		i++;
 	}
-	while (ft_isdigit(nptr[i]))
+	while (nptr[i] >= '0' && nptr[i] <= '9')
 		res = (res * 10) + (nptr[i++] - '0');
 	if (res > LONG_MAX && sign == -1)
 		return (0);
