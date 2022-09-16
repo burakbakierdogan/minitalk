@@ -42,8 +42,7 @@ int	main()
 {
 	int	pid;
 	int n =0;
-
-	str = malloc (100000);
+	
 	pid = getpid();
 	signal(SIGUSR1, ft_handler);
 	signal(SIGUSR2, ft_handler);
