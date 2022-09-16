@@ -16,7 +16,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void	ft_convert(int c, char *str, int my_index)
 {
 	int	i;
