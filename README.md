@@ -1,9 +1,10 @@
 # minitalk
 The purpose of this project is to code a small data exchange program using UNIX signals.
-with make command, server and client executables files are readu to be excuted. 
-open 2 seperate terminals. 
-in one of them. run ./server and copy the printed pid number in the terminal.
-in the other one run ./client and enter pid number as an argument along with the message as 
-second argument.
-the server will print the message in its running terminal. 
-this way 2 programs will be able to talk each other via signal function.
+With the make command, server and client executables files will be ready to be executed. 
+
+Open 2 seperate terminals. 
+In one of them, run ./server and copy the printed pid number in the terminal.
+In the other one, run ./client and enter pid number as an argument along with the message you would like to send to the server.
+The server will print the message in its terminal. 
+The aim of this project is sending Unix signals between processes. 
+I convert signals to the strings.
